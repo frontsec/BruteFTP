@@ -39,7 +39,7 @@ for linha  in file.readlines()
    s.send("QUIT\r\n")
 
    if re.search("230",resulta)
-     print "[S] ==> SENHA ENCONTRADA  <==
+     print "[S] > SENHA ENCONTRADA  <"
      break
  else:
      print "[X] Acesso Negado [X]\n"
